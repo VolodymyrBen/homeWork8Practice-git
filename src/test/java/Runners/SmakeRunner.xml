@@ -1,0 +1,27 @@
+<suite name="Guru99 Runner Bank">
+    <test name="Test runner">
+        <parameter name="driverName" value="chrome"></parameter>
+        <parameter name="customerName" value="Michael Green"></parameter>
+        <parameter name="gender" value="female"></parameter>
+        <parameter name="DOB" value="05/03/1988"></parameter>
+        <parameter name="address" value="334 W Michigan Avenue"></parameter>
+        <parameter name="City" value="Chicago"></parameter>
+        <parameter name="State" value="Illinois"></parameter>
+        <parameter name="zipCode" value="123456"></parameter>
+        <parameter name="mobileNumber" value="3345562211"></parameter>
+        <parameter name="emailAddress" value="shev@chemko.com"></parameter>
+        <parameter name="password" value="michaelbest1"></parameter>
+
+        <parameter name="newAddress" value="227 W Monroe"></parameter>
+        <parameter name="newCity" value="Des Plaines"></parameter>
+        <parameter name="newState" value="Illinois"></parameter>
+        <parameter name="newZipCode" value="443322"></parameter>
+        <parameter name="newMobileNumber" value="2243084345"></parameter>
+        <parameter name="emailAddressMichael" value="messi@play.com"></parameter>
+
+        <classes>
+            <class name="Tests.comV4.LoginTest"></class>
+        </classes>
+    </test>
+</suite>
+
