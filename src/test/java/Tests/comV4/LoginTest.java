@@ -168,4 +168,9 @@ public class LoginTest extends TestBase {
     }
 
 
+    @Test
+    public void test7(){
+        String str = "Volodymyr";
+        Assert.assertEquals(str,"Volodymyr");
+    }
 }
